@@ -2,9 +2,9 @@
   <div id="app">
       <HeaderComponent />
       <HeroComponent />
-      <StrongPoints />
+      <StrongPoints :links="strongPoints" />
       <CalculatorComponent />
-      <ServiciesComponent />
+      <ServiciesComponent :servicies="servicies" />
       <FooterComponent />
   </div>
 </template>
@@ -17,9 +17,19 @@ import CalculatorComponent from '@/components/CalculatorComponent.vue';
 import ServiciesComponent from '@/components/ServiciesComponent.vue';
 import FooterComponent from '@/components/FooterComponent.vue';
 
+// Data
+import strongPoints from "@/assets/data/strongPoints";
+import servicies from "@/assets/data/servicies";
+
 
 export default {
   name: 'App',
+  data() {
+    return {
+      strongPoints,
+      servicies,
+    };
+  },
   components: { 
     HeroComponent, 
     HeaderComponent, 
@@ -34,6 +44,8 @@ export default {
 
 <style lang="scss">
 @import '@/styles/general';
+@import '@/styles/vars.scss';
+
 
 #app {
 
