@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import HeroComponent from '@/components/HeroComponent.vue';
 import HeaderComponent from '@/components/HeaderComponent.vue';
+import HeroComponent from '@/components/HeroComponent.vue';
 import StrongPoints from '@/components/StrongPoints.vue';
 import CalculatorComponent from '@/components/CalculatorComponent.vue';
 import ServiciesComponent from '@/components/ServiciesComponent.vue';
@@ -48,6 +48,8 @@ export default {
 
 
 #app {
-
+  width: 100vw;
+  overflow-x: none !important;
+  margin: 0!important;
 }
 </style>

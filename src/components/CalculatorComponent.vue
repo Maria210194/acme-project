@@ -10,6 +10,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+    div {
+        width: 100vw;
+        overflow-x: none;
+    }
 
 </style>

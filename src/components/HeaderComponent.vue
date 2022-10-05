@@ -13,11 +13,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-nav {
-    width: 100vw;
-    .logo_header {
-        width: 5vw;
-        margin-left: 1.1rem;
+    nav {
+        width: 100vw;
+        overflow-x: none;
+        
+        .logo_header {
+            width: 7vw;
+            margin: 0.7rem 0 0.5rem 5.5rem;
+        }
     }
-}
 </style>

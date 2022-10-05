@@ -25,7 +25,8 @@ export default {
 
 <style lang="scss" scoped>
     .container{
-        width: 90vw;
+        width: 100vw;
+        overflow-x: none;
         margin-inline: auto;
         padding: 2rem 0;
 
