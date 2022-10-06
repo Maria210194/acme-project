@@ -24,7 +24,8 @@ export default {
 
 <style lang="scss" scoped>
     main {
-        width: 100vw;
+        width: 100%;
+        padding: 2rem 0;
         overflow-x: none;
         
         .main_title{

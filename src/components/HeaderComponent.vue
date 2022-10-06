@@ -14,12 +14,12 @@ export default {
 
 <style lang="scss" scoped>
     nav {
-        width: 100vw;
+        width: 100%;
         overflow-x: none;
         
         .logo_header {
-            width: 7vw;
-            margin: 0.7rem 0 0.5rem 5.5rem;
+            width: 5.5vw;
+            margin: 0.7rem 0 0 2.5rem;
         }
     }
 </style>

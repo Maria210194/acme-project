@@ -6,12 +6,12 @@
             </div>
             <h2 class="title_footer">Acme Corp Inc.</h2>
             <span class="fs_plus">Via Emilio De Marchi 4, Milano(MI) - ITALY</span>
-            <span class="fs_plus"><a href="#" class="color_white tx_dec">info@acmecorp.com</a></span>
+            <span class="fs_plus"><a href="#" id="link" class="color_white tx_dec">info@acmecorp.com</a></span>
             <span class="fs_min">Designed by Deeelp</span>
         </div>
         <div class="red_footer d_flex">
-            <p class="company_footer color_white">2022 Acme Corp Inc. - P.IVA 01234567890</p>
             <ul class="link_footer d_flex">
+                <li><a class="color_white tx_dec" href="#">2022 Acme Corp Inc. - P.IVA 01234567890</a></li>
                 <li><a class="color_white tx_dec" href="#">PRIVACY POLICY</a></li>
                 <li><a class="color_white tx_dec" href="#">COOKIE POLICY</a></li>
                 <li><a class="color_white tx_dec" href="#">COOKIES PREFERENCES</a></li>
@@ -52,6 +52,12 @@ footer{
         .title_footer{
             font-size: 1rem;
             padding-bottom: 1.1rem;
+
+        }
+        
+        #link {
+            color: white !important;
+            text-decoration: none;
         }
 
         .fs_plus{
@@ -66,7 +72,7 @@ footer{
     }
 
     .red_footer{
-        width: 100vw;
+        width: 100%;
         overflow-x: none;
         justify-content: center;
         align-items: center;
@@ -86,18 +92,18 @@ footer{
             font-size: 0.8rem;
         }
 
-        .link_footer li a{
-            color:white !important;
-            padding: 0 5px;
-            text-decoration: none;
-        }
-
         .link_footer{
             justify-content: center;
             align-items: center;
             display: flex;
             list-style: none;
             padding: 0 10px;
+        }
+
+        .link_footer li a{
+            color:white;
+            padding: 0 5px;
+            text-decoration: none;
         }
     }
 

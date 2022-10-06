@@ -25,7 +25,7 @@ export default {
 
 <style lang="scss" scoped>
     .container{
-        width: 100vw;
+        width: 100%;
         overflow-x: none;
         margin-inline: auto;
         padding: 2rem 0;
@@ -47,7 +47,7 @@ export default {
             }
 
             .card {
-                width: 20vw;
+                width: 20%;
                 margin-inline: auto;
                 text-align: center;
                 padding: 0 0.7rem;

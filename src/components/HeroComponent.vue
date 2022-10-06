@@ -28,7 +28,7 @@ export default {
     @import '../styles/vars.scss';
     
     .container {
-        width: 100vw;
+        width: 100%;
         overflow-x: none;
         padding: 5vh 0;
         display: flex;
@@ -41,8 +41,16 @@ export default {
         .box-info {
             width: 65%;
             margin: 1.1rem 0 0 8vw;
+
+            .black {
+                font-weight: bolder;
+                font-size: 30px;
+            }
             
             .white{
+                font-weight: bolder;
+                font-size: 30px;
+
                 padding-top: 0;
                 color: white;
             }

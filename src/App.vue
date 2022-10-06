@@ -3,7 +3,7 @@
       <HeaderComponent />
       <HeroComponent />
       <StrongPoints :links="strongPoints" />
-      <CalculatorComponent />
+      <CalculatorComponent :buttons="buttons" />
       <ServiciesComponent :servicies="servicies" />
       <FooterComponent />
   </div>
@@ -20,6 +20,7 @@ import FooterComponent from '@/components/FooterComponent.vue';
 // Data
 import strongPoints from "@/assets/data/strongPoints";
 import servicies from "@/assets/data/servicies";
+import buttons from "@/assets/data/buttons";
 
 
 export default {
@@ -27,7 +28,8 @@ export default {
   data() {
     return {
       strongPoints,
-      servicies,
+      servicies, 
+      buttons
     };
   },
   components: { 
