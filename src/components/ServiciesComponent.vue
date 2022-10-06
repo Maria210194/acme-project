@@ -31,6 +31,7 @@ export default {
         .main_title{
             padding: 40px 0;
             text-align: center;
+            font-weight: 600;            
         }
 
         .servicies{

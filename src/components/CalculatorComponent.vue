@@ -73,7 +73,8 @@ export default {
                 text-align: center;
                 padding: 2rem 0 0 0;
                 margin: 2rem 0;
-                font-size: 23px;
+                font-size: 28px;
+                font-weight: 600;
             }
 
             .step_box {

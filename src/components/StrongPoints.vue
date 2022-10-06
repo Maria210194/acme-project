@@ -33,8 +33,8 @@ export default {
         .main_title {
             text-align: center;
             padding: 3rem 0;
-            font-size: 21px;
-            font-weight: bold;
+            font-size: 23px;
+            font-weight: 700;
         }
 
         .box_points{
@@ -61,6 +61,7 @@ export default {
                     padding: 0.7rem 0;
                     font-weight: bolder;
                     font-size: 14px;
+                    font-weight: 600;
                 }
 
                 .element_parag {
