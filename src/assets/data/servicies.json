@@ -1,22 +1,22 @@
 [
     {
-        "img": "https://i.imgur.com/35x8D7b.png",
+        "img": "Gestore.png",
         "description": "Gestore dedicato"
     },
     {
-        "img": "https://i.imgur.com/AUlGC5p.png",
+        "img": "esecutore.svg",
         "description": "Nomina di un esecutore"
     },
     {
-        "img": "https://i.imgur.com/CZlvdOW.png",
+        "img": "fiduciarie.svg",
         "description": "Apertura di rapporti intestati a società e fiduicarie"
     },
     {
-        "img": "https://i.imgur.com/YgLEbS0.png",
+        "img": "intestazioni.svg",
         "description": "Apertura di rapporti cointestati"
     },
     {
-        "img": "https://i.imgur.com/tG55eJr.png",
+        "img": "passaggio.svg",
         "description": "Passaggi generazionali"
     }
 ]

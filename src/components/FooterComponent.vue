@@ -2,7 +2,7 @@
     <footer>
         <div class="black_footer d_flex color_white">
             <div class="logo_footer">
-                <img src="https://i.imgur.com/653lMYN.png" alt="Acme_Corporation_Logo">
+                <img src="@/assets/img/logo_white.png" alt="Logo_Acme_Corporation">
             </div>
             <h2 class="title_footer">Acme Corp Inc.</h2>
             <span class="fs_plus">Via Emilio De Marchi 4, Milano(MI) - ITALY</span>

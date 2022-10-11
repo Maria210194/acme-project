@@ -6,7 +6,7 @@
             :key="index"
             class="card" 
             >
-                <img class="image" :src="element.img" :alt="element.description">
+                <img class="image" :src="require(`@/assets/img/${element.img}`)" :alt="element.description">
                 <span class="description">{{element.description}}</span>
             </div>
         </section>

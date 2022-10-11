@@ -1,7 +1,7 @@
 <template>
     <nav>
         <div>
-            <img class="logo_header" src="@/assets/logo.svg" alt="ACME">
+            <img class="logo_header" src="@/assets/img/logo.svg" alt="ACME">
         </div>
     </nav>
 </template>

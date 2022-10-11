@@ -12,7 +12,7 @@
             <button class="red_button">Calcola la tua fee ></button>
         </div>
         <div class="bitcoin">
-            <img src="@/assets/Bitcoin.svg" alt="">
+            <img src="@/assets/img/Bitcoin.svg" alt="">
         </div>
         
     </div>

@@ -1,20 +1,20 @@
 [
     {
-        "under": "./133.png",
-        "over": "../img/132.png",
-        "number": "@/img/1.png",
+        "under": "133.png",
+        "over": "132.png",
+        "number": "1.png",
         "description": "Inserisci l’ammontare del tuo patrimonio in criptovalute"
     },
     {
-        "under": "@/img/133.png",
-        "over": "",
-        "number": "../img/2.png",
+        "under": "134.png",
+        "over": "135.png",
+        "number": "2.png",
         "description": "Scopri la tua fee mensile"
     },
     {
-        "under": "https://i.imgur.com/CZlvdOW.png",
-        "over": "",
-        "number": "../img/3.png",
+        "under": "136.png",
+        "over": "137.png",
+        "number": "3.png",
         "description": "Apri il conto e godi di tutti i vantaggi"
     }
 ]
