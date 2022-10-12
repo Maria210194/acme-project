@@ -106,8 +106,32 @@ footer{
             text-decoration: none;
         }
     }
-
-
 }
+
+@media screen and (max-width: 700px) {
+    footer {
+        .red_footer {
+
+            .link_footer {
+                flex-direction: column;
+                padding: 0;
+            }
+            .link_footer li a{
+                font-size: 11px;
+            }
+        }
+    }
+}
+
+// @media screen and (max-width: 350px) {
+//     footer {
+//         .red_footer {
+//             .link_footer li a{
+//                 flex-direction: column;
+//                 padding: 10px;
+//             }
+//         }
+//     }
+// }
 
 </style>

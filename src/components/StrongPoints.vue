@@ -96,5 +96,14 @@ export default {
         }
     }
 
+    @media screen and (max-width: 450px) {
+        .container {
+            .main_title {
+                font-size: 20px;
+            }
+        }
+
+    }
+
 
 </style>

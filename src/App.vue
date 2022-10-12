@@ -3,7 +3,7 @@
       <HeaderComponent />
       <HeroComponent />
       <StrongPoints :links="strongPoints" />
-      <CalculatorComponent :buttons="buttons" />
+      <CalculatorComponent :buttons="buttons" @tableActive="tableActive"/>
       <ServiciesComponent :servicies="servicies" />
       <FooterComponent />
   </div>
@@ -29,7 +29,8 @@ export default {
     return {
       strongPoints,
       servicies, 
-      buttons
+      buttons,
+      tableOpen: false,
     };
   },
   components: { 
@@ -39,6 +40,11 @@ export default {
     CalculatorComponent, 
     ServiciesComponent,
     FooterComponent
+  }, 
+  methods: {
+    tableActive(bool) {
+      this.tableOpen = bool
+    },
   }
 }
 </script>
@@ -53,5 +59,12 @@ export default {
   width: 100vw;
   overflow-x: none !important;
   margin: 0!important;
+
+  .red_btn,
+  .red_button,
+  .transp_btn {
+    cursor: pointer;
+  }
+
 }
 </style>

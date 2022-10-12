@@ -22,4 +22,20 @@ export default {
             margin: 0.7rem 0 0 2.5rem;
         }
     }
+
+    @media screen and (max-width: 670px) {
+        nav {
+            .logo_header {
+                width: 10%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        nav {
+            .logo_header {
+                width: 15%;
+            }
+        }
+    }
 </style>

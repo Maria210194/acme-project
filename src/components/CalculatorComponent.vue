@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div id="calculator" class="container" :class="tableActive ? 'bg_change' : ''">
         <div class="resize">
             <h3 class="main_title">Calcola la tua fee </h3>
             <div class="step_box">
@@ -111,6 +111,7 @@ export default {
         },
         closeModal(){
         this.wrongImport = false;
+        // this.$emit("tableActive", false)
         },
         toggleTable(){
             this.tableActive = !this.tableActive;
@@ -235,8 +236,9 @@ export default {
                                 .red_btn{
                                     height: 30px;
                                     width: fit-content;
+                                    padding: 0 1.5rem;
                                     margin: 0 0.5rem;
-                                    font-size: 12px;
+                                    font-size: 14px;
                                 }
                             }
 
@@ -329,16 +331,173 @@ export default {
     
                 .text_error {
                     position: relative;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-60%, 80%);
                     width: 80%;
                     font-weight: 400;
-                    font-size:27px;
+                    font-size:22px;
+                    padding: 10% 0;
                 }
             }
 
         }
     }
+    .bg_change {
+        background-color: rgba(199,184,183, 0.8);
+    }
 
+    @media screen and (max-width: 830px) {
+        .container {
+            .resize {
+                .step_box {
+                    display: flex;
+                    flex-direction: column;
+                    margin-inline: auto;
+                    padding: 0;
+                    width: 100%;
+                    row-gap: 1.5rem;
+
+                    .card {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 80%;
+                        padding-bottom: 30px;
+    
+                        .description {
+                            padding: 0;
+                            width: 100%;
+                            font-size: 1.1rem;
+                            text-align: center;
+                        }
+                    }
+                }
+                .box_calculator {
+                    .calculator {
+                        .result {
+                            font-size: 45px;
+                        }
+
+                        .details {
+                            font-size: 13px;
+                        }
+
+                        .result_info {
+                            .fee_info {
+                                .btns {
+                                    .red_btn {
+                                        margin: 0.7rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                }
+                .import_error {
+                    .images_error {
+                        width: 80%;
+
+                        .text_error {
+                            width: 80%;
+                            font-size: 18px;            
+                            padding-top: 15%;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: 670px) {
+            .container {
+                .resize {
+                    .box_calculator {
+                        .calculator {
+                            width: 80%;
+                            .red_btn {
+                                width: 100px;
+                            }
+
+                            .result_info {
+                                .fee_info {
+                                    .btns {
+                                        .transp_btn {
+                                            width: 150px;
+                                        }
+            
+                                        .red_btn {
+                                            padding: 0;
+                                            width: 150px;
+                                        }
+                                    }
+                                }
+                            }
+                            .import_error {
+                                .images_error {
+                                    .text_error {
+                                        width: 80%;
+                                        font-size: 16px;
+                                        padding: 0!important;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: 460px) {
+            .container {
+                .resize {
+                    .box_calculator {
+                        .calculator {
+                            width: 100%;
+                        }
+                    }
+
+                    .step_box {
+                        .card {
+                            width: 100%;
+                        }
+                    }
+                }
+                .import_error {
+                    .images_error {
+                        .text_error {
+                            width: 80%;
+                            font-size: 16px;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: 350px) {
+            .container {
+                width: 100%;
+                .resize {
+                    .box_calculator {
+                        .calculator {
+                            width: 100%;
+                        }
+                    }
+
+                    .step_box {
+                        .card {
+                            width: 100%;
+                        }
+                    }
+                }
+                .import_error {
+                    .images_error {
+                        .text_error {
+                            width: 80%;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
 </style>
